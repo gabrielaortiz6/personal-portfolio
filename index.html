@@ -23,12 +23,12 @@ also needs media queries-->
   <link rel="stylesheet" href="./assets/style.css" />
 </head>
 
-<body class="grid">
-    <header class= "item">
+<body class="flex">
+    <header class="item" id="header">
         <h1>Gabriela M. Ortiz</h1>
         <nav>
             <ul>
-                <li><a href="#about">About</a></li>
+                <li><a href="#about">About Me</a></li>
                 <li><a href="#work">Work</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -36,12 +36,12 @@ also needs media queries-->
     </header>
 
     <main>
-        <section class= "item">
+        <section class="item">
             <!--Image of myself with subtitle-->
         </section>
-        <section class= "item">
+        <section class="item" id="about">
             <!--About Me - or should i include picture of myself here?-->
-            <h2>About Me</h2>
+            <h2 class="subheading about">About Me</h2>
             <p>My name is Gabriela Ortiz. I'm a 24 year old programmer (to be) and I have a bachelor's degree in media studies and production. 
                 A little bit about my background: I was born in Cienfuegos, Cuba and moved to Miami, FL when I was little. I would still visit Cuba as a kid
                 because my grandparents were there and my fondest memories were at my grandparents' home, eating fruit and rice and beans that my grandfather grew - probably
@@ -49,8 +49,8 @@ also needs media queries-->
                 <br>
                  Fast forward a few years later and I moved to Providence, RI for college and stayed once I graduated, despite the frigid winters (the spring makes up for it).
                 I'm currently working as an immigration paralegal and have had stints in teaching, waitressing, and community organizing.
-                In my free time, I enjoy painting, museums, listening to music <!--Include tool tip about mannequin pussy-->, watching movies/documentaries/anime, hiking, yoga,
-                and hanging out my high-maintenance orange cat, Leo.<!--insert picture of leo because he's beautiful-->
+                In my free time, I enjoy painting, museums, listening to music, watching movies/documentaries/anime, hiking, yoga,
+                and hanging out my high-maintenance orange cat, Leo.
                 <br>
                 My goals for the immediate future are to get a job in tech; move somewhere warm and walkable; and try
                 to find a hairless cat to adopt. My long term goal, however, is to buy a plot of land and live on a farm where 
@@ -60,21 +60,52 @@ also needs media queries-->
                 in a slaughterhouse picking out the Christmas pig.            
             </p>
         </section>
-        <section class= "item">
-            <h2>Work</h2>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+        <section class="item" id="work">
+            <h2 class="subheading work">Work</h2>
+            <div class="container">
+                <div class="grid-div div-1 mushroom">
+                    <a class="mushroom" href="https://www.google.com/" target="_blank">
+                   <img class="mushroom" src="/assets/mushroomgame.jpeg" alt="close up of red toadstools in a forest" width="100%">
+                     <h3 class="mushroom subtitle">Mushroom Forager Game</h3></a>
+                </div>
+
+                <div class="grid-div div-2 story">
+                    <a class="story" href="https://www.google.com/" target="_blank">
+                    <img class ="story" src="/assets/storyimage.jpg" alt="quill and paper" width="100%" height="230px">
+                    <h3 class="story subtitle">Story Builder</h3>
+                    </a>
+                </div>
+
+                <div class="grid-div div-3 palette">
+                    <a class="palette" href="https://www.google.com/" target="_blank">
+                    <img class="palette" src="/assets/palette1.jpg" alt="painter's palette" width="100%">
+                    <h3 class="palette subtitle">Random Palette Generator</h3>
+                    </a>
+                </div>
+
+                <div class="grid-div div-4 fireplace">
+                    <a class="fireplace" href="https://www.google.com/" target="_blank">
+                    <img class="fireplace" src="/assets/fireplace3.gif" alt="fireplace" width="100%">
+                    <h3 class="fireplace subtitle">Fireplace Simulator</h3>
+                    </a>
+                </div>
+
+                <div class="grid-div div-5 collage">
+                    <a class="collage" href="https://www.google.com/" target="_blank">
+                    <img class="collage" src="/assets/collagemaker3.jpg" alt="collage" width="100%" height="75%">
+                    <h3 class="collage subtitle">Collage Maker</h3>
+                    </a>
+                </div>
+            </div>
         </section>
     </main>
 
-    <footer class= "item">
-        <h2>Contact Info</h2>
+    <footer class= "item" id="contact">
+        <h2 class="subheading contact">Contact</h2>
         <ul>
-            <li>Phone Logo: (786) 238-0912</li>
-            <li>Email Envelope Logo: <a href = "mailto:gaby.ortiz0698@gmail.com?">gaby.ortiz0698@gmail.com</a></li>
-            <li><a href="https://github.com/gabrielaortiz6" target="_blank">GitHub</a></li>
+            <li class="grape"><img class="phone" src="/assets/darkbgphone.png" width="60px" alt="phone logo">(786) 238-0912</li>
+            <li class="grape"><a href = "mailto:gaby.ortiz0698@gmail.com?"><img class="email" src="assets/emailiconblackbg.png" alt="email logo">gaby.ortiz0698@gmail.com</a></li>
+            <li class="grape"><a href="https://github.com/gabrielaortiz6" target="_blank"></a><img class="github" src="/assets/bettergithublogo.png" width="60px" alt="GitHub logo">GitHub</a></li>
         </ul>
     </footer>
 </body>
