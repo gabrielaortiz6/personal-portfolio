@@ -70,6 +70,10 @@ p {
   width: 100%;
 }
 
+.face {
+  height: 700px;
+}
+
 /* need to make contact heading align */
 .subheading {
   font-size: 30px;
@@ -174,7 +178,7 @@ are inside grid divs*/
 .mushroom > a,
 .story > a,
 .fireplace > a,
-.pallete > a,
+.palette > a,
 .collage > a {
 background-color: transparent;
 }
@@ -219,3 +223,22 @@ a.collage > img {
 .grid-div:hover {
   opacity: 1;
 }
+
+@media screen and (max-width: 992px) {
+  main {
+      display: flex;
+      row-gap: 25px;
+      flex-wrap: wrap;
+  }
+  .container.subtitle {
+    width: 25%;
+    font-size: 12px;
+  }
+}
+
+/* Did not get to media queries
+bc was having issues with how it was
+showing up in chrome versus safari
+
+@media screen and (max-width: 650px) {
+  

@@ -103,6 +103,11 @@ You are required to submit BOTH of the following for review:
 
 * The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
 
+## Screenshot
+
+![Screenshot1](/assets/screenshot1.png)
+![Screenshot2](/assets/screenshot2.png)
+![Screenshot3](/assets/screenshot3.png)
 - - -
 © 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
 
