@@ -215,3 +215,7 @@ a.collage > img {
   background-color: var(--sand);
   color: #808080;
 }
+
+.grid-div:hover {
+  opacity: 1;
+}
