@@ -108,7 +108,8 @@ You are required to submit BOTH of the following for review:
 ![Screenshot1](/assets/screenshot1.png)
 ![Screenshot2](/assets/screenshot2.png)
 ![Screenshot3](/assets/screenshot3.png)
+
+### Deployed Site
+[Deployed Site](https://gabrielaortiz6.github.io/personal-portfolio/')
 - - -
 © 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
-
-![Mockup](/assets/mockup.png)
